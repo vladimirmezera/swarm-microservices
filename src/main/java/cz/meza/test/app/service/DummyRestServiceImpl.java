@@ -1,10 +1,7 @@
 package cz.meza.test.app.service;
 
 import cz.meza.test.app.bean.ApplicationCounterService;
-import cz.meza.test.app.bean.impl.ApplicationCounter;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.enterprise.inject.Default;
 import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -21,7 +18,7 @@ public class DummyRestServiceImpl {
 
 
     @Inject
-    private ApplicationCounter applicationCounterService;
+    private ApplicationCounterService applicationCounterService;
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
