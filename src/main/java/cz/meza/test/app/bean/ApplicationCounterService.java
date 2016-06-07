@@ -2,7 +2,6 @@ package cz.meza.test.app.bean;
 
 /**
  * Interface for counter.
- * @author vladimir.mezera@gmail.com
  */
 public interface ApplicationCounterService {
 

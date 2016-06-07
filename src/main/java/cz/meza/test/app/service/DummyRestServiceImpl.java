@@ -11,7 +11,6 @@ import javax.ws.rs.core.Response;
 
 /**
  * Only test simple REST service.
- * @author vladimir.mezera@gmail.com
  */
 @Path("/dummy")
 public class DummyRestServiceImpl {

@@ -6,7 +6,6 @@ import javax.enterprise.context.ApplicationScoped;
 
 /**
  * Test bean for counting.
- * @author vladimir.mezera@gmail.com
  */
 @ApplicationScoped
 public class ApplicationCounter implements ApplicationCounterService {
